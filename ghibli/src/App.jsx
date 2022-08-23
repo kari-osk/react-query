@@ -1,7 +1,9 @@
 import { QueryClientProvider, QueryClient } from 'react-query'
-import CardApi from './components/CardApi';
+import Gallery from './components/Gallery';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Navbar from './components/Navbar';
 
 const query = new QueryClient();
 
@@ -9,8 +11,8 @@ function App() {
   return (
     <QueryClientProvider client={query}>
       <div className="App">
-        <h1>Ghibli studio</h1>
-        <CardApi />
+        <Navbar />
+        <Gallery />
       </div>
     </QueryClientProvider>
   );
