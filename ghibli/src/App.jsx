@@ -4,6 +4,7 @@ import Gallery from './components/Gallery';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
 const query = new QueryClient();
 
@@ -12,6 +13,7 @@ function App() {
     <QueryClientProvider client={query}>
       <div className="App">
         <Navbar />
+        <Hero />
         <Gallery />
       </div>
     </QueryClientProvider>

@@ -1,10 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Container } from 'react-bootstrap'
+import { GrGithub, GrLinkedinOption } from "react-icons/gr";
+import './style.css'
+
+
 
 function Navbar() {
-  return (
-    <div>
-      <h1>Ghibli</h1>
 
+  const [colorChange, setColorChange] = useState(false);
+
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorChange(true);
+    } else {
+      setColorChange(false)
+    }
+  }
+
+  window.addEventListener('scroll', changeNavbarColor);
+
+  return (
+    <div className={colorChange ? 'navbar colorChange' : 'navbar'}>
+      <Container >
+        <nav className='navbar_nav'>
+          <ul className='nav_ul'>
+            <a id="home" href='/'>Ghibli</a>
+            <ul className='nav_icons'>
+              <a href='https://github.com/kari-osk'><GrGithub /></a>
+              <a href='https://linkedin.com/in/karinaosuka'><GrLinkedinOption /></a>
+            </ul>
+          </ul>
+        </nav>
+      </Container>
     </div>
   )
 }
