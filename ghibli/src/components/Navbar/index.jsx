@@ -26,7 +26,7 @@ function Navbar() {
           <ul className='nav_ul'>
             <a id="home" href='/'>Ghibli</a>
             <ul className='nav_icons'>
-              <a href='https://github.com/kari-osk'><GrGithub /></a>
+              <a className='nav_icons_a' href='https://github.com/kari-osk'><GrGithub /></a>
               <a href='https://linkedin.com/in/karinaosuka'><GrLinkedinOption /></a>
             </ul>
           </ul>
