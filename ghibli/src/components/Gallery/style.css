@@ -1,0 +1,16 @@
+.gallery_container {
+  z-index: 1;
+}
+
+.show_btn {
+  position: fixed;
+  border: none;
+  border-radius: 50%;
+  bottom: 1rem;
+  right: 1rem;
+  z-index:100;
+}
+
+.show_btn:hover {
+  background-color:#005490;
+}
