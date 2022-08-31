@@ -6,6 +6,7 @@
   position: fixed;
   border: none;
   border-radius: 50%;
+  background-color: #97c8e8; 
   bottom: 1rem;
   right: 1rem;
   z-index:100;
