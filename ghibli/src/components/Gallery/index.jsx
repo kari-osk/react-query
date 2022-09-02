@@ -9,7 +9,6 @@ import './style.css'
 import { useEffect } from 'react';
 
 const fetchData = () => {
-
   return axios.get(`https://ghibliapi.herokuapp.com/films`);
 }
 

@@ -1,15 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Card } from 'react-bootstrap'
 import './style.css'
 
 function SingleCard(prop) {
+
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handMouseOver = () => {
+    setIsHovering(true);
+  }
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  }
+
   return (
     <div>
-      <Card>
+      <Card onMouseOver={handMouseOver} onMouseOut={handleMouseOut}>
         <Card.Img src={prop.data.image} alt={prop.data.description} />
-        <Card.Body>
+        {isHovering &&
           <Card.Title className='film_title'>{prop.data.title}</Card.Title>
-        </Card.Body>
+        }
+
       </Card>
     </div>
   )
