@@ -8,9 +8,9 @@ function Hero() {
       <Container>
         <Row >
           <Col sm={12} md={6} lg={6} xl={6} className='hero_text'>
-            <h1>Ghibli studio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button>Veja mais</button>
+            <h1>Studio Ghibli</h1>
+            <p>Cofundado por Hayao Miyazaki, o Studio Ghibli é famoso por suas produções fascinantes.</p>
+            <button className='hero_btn'>Veja mais</button>
           </Col>
         </Row>
       </Container>

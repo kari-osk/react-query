@@ -24,7 +24,7 @@ function Navbar() {
       <Container >
         <nav className='navbar_nav'>
           <ul className='nav_ul'>
-            <a id="home" href='/'>Ghibli Studio </a>
+            <a id="home" className='logo' href='/'>Studio Ghibli</a>
             <ul className='nav_icons'>
               <a className='nav_icons_a' href='https://github.com/kari-osk'><GrGithub /></a>
               <a href='https://linkedin.com/in/karinaosuka'><GrLinkedinOption /></a>
