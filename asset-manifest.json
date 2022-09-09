@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kari-osk/react-query/static/css/main.c11ca080.css",
-    "main.js": "/kari-osk/react-query/static/js/main.990f720a.js",
-    "static/js/787.c2056e74.chunk.js": "/kari-osk/react-query/static/js/787.c2056e74.chunk.js",
-    "index.html": "/kari-osk/react-query/index.html",
-    "main.c11ca080.css.map": "/kari-osk/react-query/static/css/main.c11ca080.css.map",
-    "main.990f720a.js.map": "/kari-osk/react-query/static/js/main.990f720a.js.map",
-    "787.c2056e74.chunk.js.map": "/kari-osk/react-query/static/js/787.c2056e74.chunk.js.map"
+    "main.css": "/react-query/static/css/main.c11ca080.css",
+    "main.js": "/react-query/static/js/main.ba5bac95.js",
+    "static/js/787.c2056e74.chunk.js": "/react-query/static/js/787.c2056e74.chunk.js",
+    "index.html": "/react-query/index.html",
+    "main.c11ca080.css.map": "/react-query/static/css/main.c11ca080.css.map",
+    "main.ba5bac95.js.map": "/react-query/static/js/main.ba5bac95.js.map",
+    "787.c2056e74.chunk.js.map": "/react-query/static/js/787.c2056e74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c11ca080.css",
-    "static/js/main.990f720a.js"
+    "static/js/main.ba5bac95.js"
   ]
 }
